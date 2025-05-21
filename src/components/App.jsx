@@ -8,7 +8,13 @@ const App = () => {
 
   useExternalBridge(embeddedVisioUrl)
 
-  return <iframe id="embeddedApp" src={embeddedVisioUrl}></iframe>
+  return (
+    <iframe
+      id="embeddedApp"
+      allow="microphone; camera; clipboard-read; clipboard-write"
+      src={embeddedVisioUrl}
+    ></iframe>
+  )
 }
 
 export default App
