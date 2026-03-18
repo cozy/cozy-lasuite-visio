@@ -1,9 +1,9 @@
 import { createRoot } from 'react-dom/client'
+import { initTranslation } from 'twake-i18n'
 
 import CozyClient from 'cozy-client'
 import flag from 'cozy-flags'
 import { RealtimePlugin } from 'cozy-realtime'
-import { initTranslation } from 'cozy-ui/transpiled/react/providers/I18n'
 
 import manifest from '../../../manifest.webapp'
 
@@ -27,7 +27,8 @@ const makeClient = container => {
       version: manifest.version
     },
     schema,
-    store: true
+    store: true,
+    autoHydrate: true
   })
 
   return client
