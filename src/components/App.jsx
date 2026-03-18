@@ -1,18 +1,20 @@
 import React from 'react'
 
-import { useExternalBridge } from 'cozy-external-bridge/container'
+import { useExternalBridge } from 'cozy-external-bridge-container'
 import flag from 'cozy-flags'
 
 const App = () => {
-  const embeddedVisioUrl = flag('visio.embedded-app-url')
+  const embeddedAppRootUrl = flag('visio.embedded-app-url')
 
-  useExternalBridge(embeddedVisioUrl)
+  const { isReady, urlToLoad } = useExternalBridge(embeddedAppRootUrl)
 
+  // We can not return null if bridge is not ready because to setup
+  // the bridge we need iframe HTML element
   return (
     <iframe
       id="embeddedApp"
+      src={isReady ? urlToLoad : null}
       allow="microphone; camera; clipboard-read; clipboard-write"
-      src={embeddedVisioUrl}
     ></iframe>
   )
 }
