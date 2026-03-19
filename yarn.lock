@@ -7301,9 +7301,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-bar@npm:^29.3.0":
-  version: 29.3.0
-  resolution: "cozy-bar@npm:29.3.0"
+"cozy-bar@npm:^30.0.0":
+  version: 30.0.0
+  resolution: "cozy-bar@npm:30.0.0"
   dependencies:
     lodash.set: "npm:^4.3.2"
     lodash.unionwith: "npm:4.6.0"
@@ -7323,13 +7323,13 @@ __metadata:
     cozy-interapp: ">=0.4.9"
     cozy-realtime: ">=4.0.5"
     cozy-search: ">=0.14.0"
-    cozy-ui: ">=135.0.0"
+    cozy-ui: ">=137.0.0"
     cozy-ui-plus: ">=4.0.0"
     react: ">=16.10.1"
     react-dom: ">=16.10.1"
     react-router-dom: ">=6.14.2"
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/31bdf4a382fc1c2eca8caed0560c5a7c0ecf0aa576f84b40461ebdc1bdb2dfdaec905dd8d00ad471728321ac596c8478ed08fb7749846ec72cb0fe0889c0b616
+  checksum: 10c0/ec8b886698f4b5a544d7f885626ca1446a8ee1793c307740ac0e820d6859afa6423d43a763aff2570295ed895ff8a09c43dff89aea70d597db13423d81708038
   languageName: node
   linkType: hard
 
@@ -7580,9 +7580,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-ui@npm:^136.2.2":
-  version: 136.2.2
-  resolution: "cozy-ui@npm:136.2.2"
+"cozy-ui@npm:^137.0.0":
+  version: 137.0.0
+  resolution: "cozy-ui@npm:137.0.0"
   dependencies:
     "@babel/runtime": "npm:^7.3.4"
     "@date-io/date-fns": "npm:1"
@@ -7618,7 +7618,7 @@ __metadata:
     twake-i18n: ">=0.3.0"
   bin:
     rsg-screenshots: scripts/screenshots.js
-  checksum: 10c0/a36717ed3e740a7a8630495f08e702e3279c0af5722f359f6e64a830b25ff3bc109a75987af34a2912b09f0cf0b5034bb1fe2eca00f2026b54444fff0cbc8f77
+  checksum: 10c0/c1fe8088e844c13a4b6309a75ab58983c20f71c7648fbb946c8f9ea28d481d44a379c39426bf45df1cfb23b2a288100097e5d8310ead03323c7ad815190e0e47
   languageName: node
   linkType: hard
 
@@ -17319,7 +17319,7 @@ __metadata:
     babel-preset-cozy-app: "npm:2.8.4"
     comlink: "npm:^4.4.2"
     cozy-app-publish: "npm:0.44.1"
-    cozy-bar: "npm:^29.3.0"
+    cozy-bar: "npm:^30.0.0"
     cozy-client: "npm:^60.23.0"
     cozy-dataproxy-lib: "npm:^4.14.1"
     cozy-device-helper: "npm:^4.0.3"
@@ -17332,7 +17332,7 @@ __metadata:
     cozy-realtime: "npm:^5.9.1"
     cozy-search: "npm:^0.19.2"
     cozy-tsconfig: "npm:1.8.1"
-    cozy-ui: "npm:^136.2.2"
+    cozy-ui: "npm:^137.0.0"
     cozy-ui-plus: "npm:^5.3.1"
     eslint: "npm:10.0.3"
     eslint-config-cozy-app: "npm:7.0.0"
