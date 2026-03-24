@@ -36,15 +36,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@assistant-ui/core@npm:^0.1.7":
-  version: 0.1.7
-  resolution: "@assistant-ui/core@npm:0.1.7"
+"@assistant-ui/core@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@assistant-ui/core@npm:0.1.8"
   dependencies:
-    assistant-stream: "npm:^0.3.6"
-    nanoid: "npm:^5.1.6"
+    assistant-stream: "npm:^0.3.7"
+    nanoid: "npm:^5.1.7"
   peerDependencies:
-    "@assistant-ui/store": ^0.2.3
-    "@assistant-ui/tap": ^0.5.3
+    "@assistant-ui/store": ^0.2.4
+    "@assistant-ui/tap": ^0.5.4
     "@types/react": "*"
     assistant-cloud: ^0.1.22
     react: ^18 || ^19
@@ -58,17 +58,17 @@ __metadata:
       optional: true
     zustand:
       optional: true
-  checksum: 10c0/5dc5e2c2b12ddd03f9db8f6f47815bf73cd58bd7dd766d343920c266a3d63e427e2327695e8f4f97f0ea8c834f7ee5ed4beece2c471118e4e84763d0a241c745
+  checksum: 10c0/de35ec6898b39a2c206c8817b8705debbb1965a61baee709549e1d3ac1e4dee32c4236e54f10925fc4a4d92b42e7d56b39da67a66f3b8a8ec320d33f00259b27
   languageName: node
   linkType: hard
 
 "@assistant-ui/react@npm:^0.12.5":
-  version: 0.12.19
-  resolution: "@assistant-ui/react@npm:0.12.19"
+  version: 0.12.20
+  resolution: "@assistant-ui/react@npm:0.12.20"
   dependencies:
-    "@assistant-ui/core": "npm:^0.1.7"
-    "@assistant-ui/store": "npm:^0.2.3"
-    "@assistant-ui/tap": "npm:^0.5.3"
+    "@assistant-ui/core": "npm:^0.1.8"
+    "@assistant-ui/store": "npm:^0.2.4"
+    "@assistant-ui/tap": "npm:^0.5.4"
     "@radix-ui/primitive": "npm:^1.1.3"
     "@radix-ui/react-compose-refs": "npm:^1.1.2"
     "@radix-ui/react-context": "npm:^1.1.3"
@@ -76,12 +76,12 @@ __metadata:
     "@radix-ui/react-use-callback-ref": "npm:^1.1.1"
     "@radix-ui/react-use-escape-keydown": "npm:^1.1.1"
     assistant-cloud: "npm:^0.1.22"
-    assistant-stream: "npm:^0.3.6"
-    nanoid: "npm:^5.1.6"
+    assistant-stream: "npm:^0.3.7"
+    nanoid: "npm:^5.1.7"
     radix-ui: "npm:^1.4.3"
     react-textarea-autosize: "npm:^8.5.9"
     zod: "npm:^4.3.6"
-    zustand: "npm:^5.0.11"
+    zustand: "npm:^5.0.12"
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -92,29 +92,29 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 10c0/8ee51b77104a7289bc1af8d320c8bc16dc7ab97b5293349e0aba1e8f375065a0184ad631e252ad9bfc2ffe678f35f681762bbb89b1b1d2000e4f293920c2642d
+  checksum: 10c0/b2a056e7338063a8a172f3e5571adde87c79cc97981fed64a19de807360f4470d09ad4c9004618c9f9371e8eb853939135e03a1631f8d1bf552a8e299fa723e1
   languageName: node
   linkType: hard
 
-"@assistant-ui/store@npm:^0.2.3":
-  version: 0.2.3
-  resolution: "@assistant-ui/store@npm:0.2.3"
+"@assistant-ui/store@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "@assistant-ui/store@npm:0.2.4"
   dependencies:
     use-effect-event: "npm:^2.0.3"
   peerDependencies:
-    "@assistant-ui/tap": ^0.5.3
+    "@assistant-ui/tap": ^0.5.4
     "@types/react": "*"
     react: ^18 || ^19
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/d8a8312dc7a88e7517e5ff64fcf5d996656ea79a03ee188f9b8850712e642478a67554f6c8d90d8913d774554b96fe93120a496872803826fcd4c0e9d9e8c90a
+  checksum: 10c0/1538763ec545e89e2c5570e75379490968629162b394ba390077d0b3833883ee4361ba7dedbbc0efd13ba4b3fdf4013a29d6909334f1770e8c8abe74fd73121d
   languageName: node
   linkType: hard
 
-"@assistant-ui/tap@npm:^0.5.3":
-  version: 0.5.3
-  resolution: "@assistant-ui/tap@npm:0.5.3"
+"@assistant-ui/tap@npm:^0.5.4":
+  version: 0.5.4
+  resolution: "@assistant-ui/tap@npm:0.5.4"
   peerDependencies:
     "@types/react": "*"
     react: ^18 || ^19
@@ -123,7 +123,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 10c0/4e606967cecbb20a8693299037509aadae80646e6b27136d6fbc580ce7fd8a767844e1272633978e80820d305f2dbecd42116e71be8a94c80366a27af14bd6ab
+  checksum: 10c0/41e6ef937c50919d0de90497e9589415ec981e989e1d33acbea3fad8205de3e3a84f726aab5210f434f4e5f68174ac986a335b3e9be98a9dd32b12784a4b1193
   languageName: node
   linkType: hard
 
@@ -1913,15 +1913,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
-  version: 7.16.7
-  resolution: "@babel/runtime@npm:7.16.7"
-  dependencies:
-    regenerator-runtime: "npm:^0.13.4"
-  checksum: 10c0/db68a6cd665930288d8fc96e751932413246eb72e71aa2f16376553eb6ed64db469bf462eb9fa137bda3109f181cab74ae136505fa4cca464674a1a1ab9c2fea
-  languageName: node
-  linkType: hard
-
 "@babel/runtime@npm:^7.10.0, @babel/runtime@npm:^7.19.4, @babel/runtime@npm:^7.20.13":
   version: 7.29.2
   resolution: "@babel/runtime@npm:7.29.2"
@@ -1935,6 +1926,15 @@ __metadata:
   dependencies:
     regenerator-runtime: "npm:^0.13.11"
   checksum: 10c0/4065f5f72c5c1f4c4cc09cdc9926e82d643bd3490cc09474bc06fbc2412d636bc8acd937a429e397ed39b29bd3920b8f0c3f9b693ee82b22188232c50c418e7d
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+  version: 7.16.7
+  resolution: "@babel/runtime@npm:7.16.7"
+  dependencies:
+    regenerator-runtime: "npm:^0.13.4"
+  checksum: 10c0/db68a6cd665930288d8fc96e751932413246eb72e71aa2f16376553eb6ed64db469bf462eb9fa137bda3109f181cab74ae136505fa4cca464674a1a1ab9c2fea
   languageName: node
   linkType: hard
 
@@ -6062,14 +6062,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"assistant-stream@npm:^0.3.6":
-  version: 0.3.6
-  resolution: "assistant-stream@npm:0.3.6"
+"assistant-stream@npm:^0.3.6, assistant-stream@npm:^0.3.7":
+  version: 0.3.7
+  resolution: "assistant-stream@npm:0.3.7"
   dependencies:
     "@standard-schema/spec": "npm:^1.1.0"
-    nanoid: "npm:^5.1.6"
+    nanoid: "npm:^5.1.7"
     secure-json-parse: "npm:^4.1.0"
-  checksum: 10c0/0583753733ef34c77888eebadcf2c38e7ac455c6968d493de8dbefc832766f00f9c7599949052a67b00ea749e1f795c97b308d87b572267e31a1ec72c9565e80
+  checksum: 10c0/af78743f744f2690e3c29eb5f7899e8ded1c5940b81c24a29809fc405b2d2ee0e64275ff0a21a35f395edebfd7e65473eb5cb8398318adb0e8ea79d0ec1a73e1
   languageName: node
   linkType: hard
 
@@ -6890,13 +6890,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:3.7.1":
-  version: 3.7.1
-  resolution: "chart.js@npm:3.7.1"
-  checksum: 10c0/c22bf176da29b910151de25778fce9ccdf5a74e76386d032d43f0eb65cf9112fa96f1f6683ede4b6f30d8215e8ee3bf4e95d234536fb566615378c005c4d522f
-  languageName: node
-  linkType: hard
-
 "chokidar@npm:1.5.2":
   version: 1.5.2
   resolution: "chokidar@npm:1.5.2"
@@ -7301,41 +7294,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-bar@npm:^30.0.0":
-  version: 30.0.0
-  resolution: "cozy-bar@npm:30.0.0"
+"cozy-bar@npm:^32.0.0":
+  version: 32.0.0
+  resolution: "cozy-bar@npm:32.0.0"
   dependencies:
     lodash.set: "npm:^4.3.2"
-    lodash.unionwith: "npm:4.6.0"
     prop-types: "npm:15.7.2"
-    react-redux: "npm:5.1.1"
-    redux: "npm:4.1.2"
-    redux-logger: "npm:3.0.6"
-    redux-persist: "npm:5.10.0"
-    redux-thunk: "npm:2.3.0"
   peerDependencies:
     "@cozy/minilog": ">=1.0.0"
-    cozy-client: ">=60.14.0"
+    cozy-client: ">=60.21.0"
     cozy-dataproxy-lib: ">=4.1.0"
     cozy-device-helper: ">=2.6.0"
     cozy-flags: ">=4.6.1"
     cozy-intent: ">=2.29.1"
-    cozy-interapp: ">=0.4.9"
     cozy-realtime: ">=4.0.5"
-    cozy-search: ">=0.14.0"
-    cozy-ui: ">=137.0.0"
-    cozy-ui-plus: ">=4.0.0"
-    react: ">=16.10.1"
-    react-dom: ">=16.10.1"
+    cozy-search: ">=0.24.0"
+    cozy-ui: ">=138.1.0"
+    cozy-ui-plus: ">=6.0.0"
+    react: ^16 || ^17 || ^18
+    react-dom: ^16 || ^17 || ^18
     react-router-dom: ">=6.14.2"
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/ec8b886698f4b5a544d7f885626ca1446a8ee1793c307740ac0e820d6859afa6423d43a763aff2570295ed895ff8a09c43dff89aea70d597db13423d81708038
+  checksum: 10c0/7cd199c7909b1b36faf19eb5cb682ae1c5684ecf00f9f05400a9e1636bea47b67b1a5741d452dbd545537dae518c7acc5dd3e3b5917fee1ddd664990476cf446
   languageName: node
   linkType: hard
 
-"cozy-client@npm:^60.23.0":
-  version: 60.23.0
-  resolution: "cozy-client@npm:60.23.0"
+"cozy-client@npm:^60.23.1":
+  version: 60.23.1
+  resolution: "cozy-client@npm:60.23.1"
   dependencies:
     "@cozy/minilog": "npm:1.0.0"
     "@fastify/deepmerge": "npm:^2.0.2"
@@ -7368,7 +7354,7 @@ __metadata:
     react-native-google-play-integrity: ^1.1.0
     react-native-inappbrowser-reborn: ^3.5.1
     react-native-ios11-devicecheck: ^0.0.3
-  checksum: 10c0/c27a75f3bca9c42ec89b8ead17acb46af5a93475d5fb73e61e728d87643aa6d34d31b7f75ce7633ee5afd6ed8f573e4b34aa368687bfc11a35c96cc984c97e14
+  checksum: 10c0/8ec1bc182f0b7b7b6240c34b4dbd3918801384310ac48d9ccf3d1b4579cf397182df2a1dfe15e3da109db44ad6c6dd6d0d4166a2f164873ef7629d2b79fd2db9
   languageName: node
   linkType: hard
 
@@ -7471,18 +7457,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-pouch-link@npm:^60.23.0":
-  version: 60.23.0
-  resolution: "cozy-pouch-link@npm:60.23.0"
+"cozy-pouch-link@npm:^60.23.1":
+  version: 60.23.1
+  resolution: "cozy-pouch-link@npm:60.23.1"
   dependencies:
-    cozy-client: "npm:^60.23.0"
+    cozy-client: "npm:^60.23.1"
     pouchdb-browser: "npm:^7.2.2"
     pouchdb-find: "npm:^7.2.2"
   peerDependencies:
     "@cozy/minilog": 1.0.0
     "@op-engineering/op-sqlite": "*"
     cozy-device-helper: ">=2.1.0"
-  checksum: 10c0/af9869efc9bb01fa7f0b06dcf1efa9f6da4292d933eda7643c428a88a218832f3b934f801fabbd6292a29110ab17da9ef1bffd86308891ca0cfdba06819a7a1b
+  checksum: 10c0/2022dbfaa74a294237bc3a50965167512f134a9e486586741a50f03b9ba268b9481dab69d38ba3f706b8757ccf775919c406cc7ce594682166f53762ffa505b4
   languageName: node
   linkType: hard
 
@@ -7497,9 +7483,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-search@npm:^0.19.2":
-  version: 0.19.2
-  resolution: "cozy-search@npm:0.19.2"
+"cozy-search@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "cozy-search@npm:0.24.0"
   dependencies:
     "@assistant-ui/react": "npm:^0.12.5"
     classnames: "npm:^2.5.1"
@@ -7508,7 +7494,6 @@ __metadata:
     react-type-animation: "npm:3.2.0"
     rooks: "npm:7.14.1"
   peerDependencies:
-    cozy-bar: ">=29.0.0"
     cozy-client: ">=60.21.0"
     cozy-device-helper: ">=3.7.1"
     cozy-flags: ">=4.6.1"
@@ -7517,13 +7502,13 @@ __metadata:
     cozy-minilog: ">=3.3.1"
     cozy-pouch-link: 54.0.0
     cozy-realtime: ">=5.6.4"
-    cozy-ui: ">=135.6.0"
-    cozy-ui-plus: ">=1.2.0"
+    cozy-ui: ">=138.1.0"
+    cozy-ui-plus: ">=6.0.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-router-dom: ^6.28.0
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/e1927f2ae0afcb830289443c6c20454ec1419cf22469c1e0ca51d5ae8215c104132a9c8d43fa83f07a8c712b182d277e3319a324cc66e9f5f22df96c9d8b6271
+  checksum: 10c0/471a8b0797da617f214e13564b6dbf54dc0600ceb95883e19198f645f0455d902477f75de0c551b55787a61d12764ff9101de11703d2b5da2afa22bf7a175336
   languageName: node
   linkType: hard
 
@@ -7552,9 +7537,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-ui-plus@npm:^5.3.1":
-  version: 5.3.1
-  resolution: "cozy-ui-plus@npm:5.3.1"
+"cozy-ui-plus@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "cozy-ui-plus@npm:6.0.0"
   dependencies:
     classnames: "npm:^2.5.1"
     cozy-interapp: "npm:^0.5.4"
@@ -7572,17 +7557,17 @@ __metadata:
     cozy-device-helper: ">=2.0.0"
     cozy-intent: ">=2.30.0"
     cozy-logger: ">=1.17.0"
-    cozy-ui: ">=135.0.0"
+    cozy-ui: ">=138.1.0"
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/db34e8d16af94089d4647908ef2e775c82414df47f0b3262544538c4b08967460a3a0811f71a62ae14ec7a8794732d7a28eefbcf1d0ede4bf44461a36af0ba72
+  checksum: 10c0/c75bdc0b10146d473c7fe1579a5ef288f7cb68684c504ed988b0e13adcce1210010d68ca33a38b6b0cdf93cd2e8696c0ad92d736f12b251f8c2feb9816b2add8
   languageName: node
   linkType: hard
 
-"cozy-ui@npm:^137.0.0":
-  version: 137.0.0
-  resolution: "cozy-ui@npm:137.0.0"
+"cozy-ui@npm:^138.1.1":
+  version: 138.1.1
+  resolution: "cozy-ui@npm:138.1.1"
   dependencies:
     "@babel/runtime": "npm:^7.3.4"
     "@date-io/date-fns": "npm:1"
@@ -7590,7 +7575,6 @@ __metadata:
     "@material-ui/lab": "npm:^4.0.0-alpha.61"
     "@material-ui/pickers": "npm:3.3.11"
     "@popperjs/core": "npm:^2.4.4"
-    chart.js: "npm:3.7.1"
     classnames: "npm:^2.2.5"
     date-fns: "npm:2.30.0"
     hammerjs: "npm:^2.0.8"
@@ -7600,7 +7584,6 @@ __metadata:
     normalize.css: "npm:^8.0.0"
     patch-package: "npm:^8.0.0"
     pdf-lib: "npm:1.17.1"
-    react-chartjs-2: "npm:4.1.0"
     react-markdown: "npm:^4.0.8"
     react-popper: "npm:^2.2.3"
     react-remove-scroll: "npm:^2.4.0"
@@ -7618,7 +7601,7 @@ __metadata:
     twake-i18n: ">=0.3.0"
   bin:
     rsg-screenshots: scripts/screenshots.js
-  checksum: 10c0/c1fe8088e844c13a4b6309a75ab58983c20f71c7648fbb946c8f9ea28d481d44a379c39426bf45df1cfb23b2a288100097e5d8310ead03323c7ad815190e0e47
+  checksum: 10c0/618347efb031ddc0ce386587013fb613c4dbb607b63c93a39629e545815d1eded04943f345d448775db62ec03fca6914344e024ebe70e9ec54a84393bb4b1820
   languageName: node
   linkType: hard
 
@@ -7989,13 +7972,6 @@ __metadata:
   version: 0.2.0
   resolution: "decode-uri-component@npm:0.2.0"
   checksum: 10c0/dbc3c72e4a740703f76fb3f51e35bb81546aa3e8c7897e015b8bc289813d3044ad6eaa6048fbb43f6b7b34ef005527b7511da50399caa78b91ee39266a341822
-  languageName: node
-  linkType: hard
-
-"deep-diff@npm:^0.3.5":
-  version: 0.3.8
-  resolution: "deep-diff@npm:0.3.8"
-  checksum: 10c0/dbb10937ccff21b1ad1ee5e64ad926643a7000cb9837bc2165bacfddf569788c78b8bfd74401c32121af3fb1cb1092b7447319d9f01900676473a1b840c08ade
   languageName: node
   linkType: hard
 
@@ -10282,7 +10258,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^3.1.0, hoist-non-react-statics@npm:^3.3.0, hoist-non-react-statics@npm:^3.3.1, hoist-non-react-statics@npm:^3.3.2":
+"hoist-non-react-statics@npm:^3.3.0, hoist-non-react-statics@npm:^3.3.1, hoist-non-react-statics@npm:^3.3.2":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2"
   dependencies:
@@ -11999,13 +11975,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.unionwith@npm:4.6.0":
-  version: 4.6.0
-  resolution: "lodash.unionwith@npm:4.6.0"
-  checksum: 10c0/e12bf292a1e6d6f098a5b8887278b30992eef94d63061d8d17b6927221b4e361cb3061ce896d41803c14270ecc8225a71ac7e9dec6bf6880bc6d2fb77983d8f3
-  languageName: node
-  linkType: hard
-
 "lodash@npm:^4.17.13, lodash@npm:^4.17.14, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
@@ -12573,7 +12542,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^5.1.6":
+"nanoid@npm:^5.1.7":
   version: 5.1.7
   resolution: "nanoid@npm:5.1.7"
   bin:
@@ -13765,7 +13734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.4, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.5.4, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -14013,16 +13982,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-chartjs-2@npm:4.1.0":
-  version: 4.1.0
-  resolution: "react-chartjs-2@npm:4.1.0"
-  peerDependencies:
-    chart.js: ^3.5.0
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/e0ca798e153d2dd03dfc97c6b74826639d5e5fcbb97a1a94f13091b22e83e1349f34763f6d650738fc11dc57116dce38167d9bebc6fbc8f3f07f8d039d66d046
-  languageName: node
-  linkType: hard
-
 "react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
@@ -14101,7 +14060,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.6":
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.6":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 10c0/33977da7a5f1a287936a0c85639fec6ca74f4f15ef1e59a6bc20338fc73dc69555381e211f7a3529b8150a1f71e4225525b41b60b52965bda53ce7d47377ada1
@@ -14121,13 +14080,6 @@ __metadata:
   peerDependencies:
     react: ">=16.8"
   checksum: 10c0/87b6a28b368252ac44d659ab4b36d2f909224640f35fa51cf59ec271250568fb297d85f8b51e56af6bfd48db48147b9a883060282e40d3058124cab5b6a54e03
-  languageName: node
-  linkType: hard
-
-"react-lifecycles-compat@npm:^3.0.0":
-  version: 3.0.4
-  resolution: "react-lifecycles-compat@npm:3.0.4"
-  checksum: 10c0/1d0df3c85af79df720524780f00c064d53a9dd1899d785eddb7264b378026979acbddb58a4b7e06e7d0d12aa1494fd5754562ee55d32907b15601068dae82c27
   languageName: node
   linkType: hard
 
@@ -14160,24 +14112,6 @@ __metadata:
     react: ^16.8.0 || ^17 || ^18
     react-dom: ^16.8.0 || ^17 || ^18
   checksum: 10c0/23f93540537ca4c035425bb8d5e51b11131fbc921d7ac1d041d0ae557feac8c877f3a012d36b94df8787803f52ed81e6df9257ac9e58719875f7805518d6db3f
-  languageName: node
-  linkType: hard
-
-"react-redux@npm:5.1.1":
-  version: 5.1.1
-  resolution: "react-redux@npm:5.1.1"
-  dependencies:
-    "@babel/runtime": "npm:^7.1.2"
-    hoist-non-react-statics: "npm:^3.1.0"
-    invariant: "npm:^2.2.4"
-    loose-envify: "npm:^1.1.0"
-    prop-types: "npm:^15.6.1"
-    react-is: "npm:^16.6.0"
-    react-lifecycles-compat: "npm:^3.0.0"
-  peerDependencies:
-    react: ^0.14.0 || ^15.0.0-0 || ^16.0.0-0
-    redux: ^2.0.0 || ^3.0.0 || ^4.0.0-0
-  checksum: 10c0/9e716ac45e00c97d8b2f10f341db46c3dd7869f26e5dc0679db918afa68fc72ac1e8349d9bf77f8737173c8787f9df9115fb6ef790abec472ca9dfa3d33d2984
   languageName: node
   linkType: hard
 
@@ -14607,31 +14541,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux-logger@npm:3.0.6":
-  version: 3.0.6
-  resolution: "redux-logger@npm:3.0.6"
-  dependencies:
-    deep-diff: "npm:^0.3.5"
-  checksum: 10c0/65eb71a1c72d9636368672a684bde62c746e64c19c8b92e3f00bdf5cf240ea1695eccb95a0fa3d5044f6a86cbf11fd35dc5150fd3351fa53c72721c336e9098f
-  languageName: node
-  linkType: hard
-
-"redux-persist@npm:5.10.0":
-  version: 5.10.0
-  resolution: "redux-persist@npm:5.10.0"
-  peerDependencies:
-    redux: ">3.0.0"
-  checksum: 10c0/20cd4d1c372474abad9e1fb12b33e82010bd6778df192fefd49ec57879b3dc752f9cdc58654ab996090daf8d82fc2aa256594d339fbf19ee9a5a1014fe7a09b8
-  languageName: node
-  linkType: hard
-
-"redux-thunk@npm:2.3.0":
-  version: 2.3.0
-  resolution: "redux-thunk@npm:2.3.0"
-  checksum: 10c0/fbf342e56809240af5f41257eee0dbba1b8165b611a1dd96d6d2831f84046e30f037a7e90cbff5636cd6e053d53237c4ed3287403f2c6d28fa1ad26543d7a016
-  languageName: node
-  linkType: hard
-
 "redux-thunk@npm:^2.3.0":
   version: 2.4.1
   resolution: "redux-thunk@npm:2.4.1"
@@ -14641,7 +14550,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redux@npm:3 || 4, redux@npm:4.1.2, redux@npm:^4.0.0":
+"redux@npm:3 || 4, redux@npm:^4.0.0":
   version: 4.1.2
   resolution: "redux@npm:4.1.2"
   dependencies:
@@ -17319,8 +17228,8 @@ __metadata:
     babel-preset-cozy-app: "npm:2.8.4"
     comlink: "npm:^4.4.2"
     cozy-app-publish: "npm:0.44.1"
-    cozy-bar: "npm:^30.0.0"
-    cozy-client: "npm:^60.23.0"
+    cozy-bar: "npm:^32.0.0"
+    cozy-client: "npm:^60.23.1"
     cozy-dataproxy-lib: "npm:^4.14.1"
     cozy-device-helper: "npm:^4.0.3"
     cozy-external-bridge-container: "npm:^1.2.1"
@@ -17328,12 +17237,12 @@ __metadata:
     cozy-intent: "npm:^2.31.1"
     cozy-logger: "npm:^1.18.1"
     cozy-minilog: "npm:^3.10.1"
-    cozy-pouch-link: "npm:^60.23.0"
+    cozy-pouch-link: "npm:^60.23.1"
     cozy-realtime: "npm:^5.9.1"
-    cozy-search: "npm:^0.19.2"
+    cozy-search: "npm:^0.24.0"
     cozy-tsconfig: "npm:1.8.1"
-    cozy-ui: "npm:^137.0.0"
-    cozy-ui-plus: "npm:^5.3.1"
+    cozy-ui: "npm:^138.1.1"
+    cozy-ui-plus: "npm:^6.0.0"
     eslint: "npm:10.0.3"
     eslint-config-cozy-app: "npm:7.0.0"
     react: "npm:18.2.0"
@@ -17815,7 +17724,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zustand@npm:^5.0.11":
+"zustand@npm:^5.0.12":
   version: 5.0.12
   resolution: "zustand@npm:5.0.12"
   peerDependencies:
