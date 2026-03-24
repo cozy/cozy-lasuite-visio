@@ -15,11 +15,11 @@ import AppRouter from '@/components/AppRouter'
 localStorage.setItem('ui-theme-type', 'light')
 
 const init = () => {
-  const { root, client, lang, polyglot } = setupApp()
+  const { root, client, lang, polyglot, isPublic } = setupApp()
 
   root.render(
     <AppProviders client={client} lang={lang} polyglot={polyglot}>
-      <AppRouter />
+      <AppRouter isPublic={isPublic} />
     </AppProviders>
   )
 }

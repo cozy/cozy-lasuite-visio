@@ -11,11 +11,11 @@ const OutletWrapper = ({ Component }) => (
   </>
 )
 
-const AppRouter = () => {
+const AppRouter = ({ isPublic }) => {
   return (
     <HashRouter>
       <Routes>
-        <Route element={<AppLayout />}>
+        <Route element={<AppLayout isPublic={isPublic} />}>
           <Route path="/" element={<OutletWrapper Component={App} />}>
             <Route path="bridge/*" />
           </Route>
