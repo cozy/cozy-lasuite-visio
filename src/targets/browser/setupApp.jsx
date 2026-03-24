@@ -47,10 +47,17 @@ const setupApp = () => {
   const locale = JSON.parse(container.dataset.cozy)?.locale
   const lang = getDataOrDefault(locale, 'en')
   const polyglot = initTranslation(lang, lang => require(`@/locales/${lang}`))
-  client.registerPlugin(flag.plugin)
-  client.registerPlugin(RealtimePlugin)
 
-  return { root, client, lang, polyglot }
+  const isPublic = !client.isLogged
+
+  if (isPublic) {
+    flag.initializeFromDOM()
+  } else {
+    client.registerPlugin(flag.plugin)
+    client.registerPlugin(RealtimePlugin)
+  }
+
+  return { root, client, lang, polyglot, isPublic }
 }
 
 export default setupApp
