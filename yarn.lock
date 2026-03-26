@@ -7294,10 +7294,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-bar@npm:^32.0.0":
-  version: 32.0.0
-  resolution: "cozy-bar@npm:32.0.0"
+"cozy-bar@npm:^33.0.0":
+  version: 33.0.0
+  resolution: "cozy-bar@npm:33.0.0"
   dependencies:
+    classnames: "npm:^2.5.1"
     lodash.set: "npm:^4.3.2"
     prop-types: "npm:15.7.2"
   peerDependencies:
@@ -7315,7 +7316,7 @@ __metadata:
     react-dom: ^16 || ^17 || ^18
     react-router-dom: ">=6.14.2"
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/7cd199c7909b1b36faf19eb5cb682ae1c5684ecf00f9f05400a9e1636bea47b67b1a5741d452dbd545537dae518c7acc5dd3e3b5917fee1ddd664990476cf446
+  checksum: 10c0/91fcd9b1ff4eb43404f500072d52f508c2c2b987d1cfc2ecf135a21ed70feb37a4475fe894cc5c4a555603165d0470930cfc3cd23050a93177b4cd7bbe06d183
   languageName: node
   linkType: hard
 
@@ -17228,7 +17229,7 @@ __metadata:
     babel-preset-cozy-app: "npm:2.8.4"
     comlink: "npm:^4.4.2"
     cozy-app-publish: "npm:0.44.1"
-    cozy-bar: "npm:^32.0.0"
+    cozy-bar: "npm:^33.0.0"
     cozy-client: "npm:^60.23.1"
     cozy-dataproxy-lib: "npm:^4.14.1"
     cozy-device-helper: "npm:^4.0.3"

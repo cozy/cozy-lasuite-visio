@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "comlink": "^4.4.2",
-    "cozy-bar": "^32.0.0",
+    "cozy-bar": "^33.0.0",
     "cozy-client": "^60.23.1",
     "cozy-dataproxy-lib": "^4.14.1",
     "cozy-device-helper": "^4.0.3",
