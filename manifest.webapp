@@ -1,5 +1,6 @@
 {
   "name": "Visio",
+  "name_prefix": "Twake",
   "slug": "visio",
   "version": "1.0.0",
   "type": "webapp",
