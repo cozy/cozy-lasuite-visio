@@ -132,6 +132,75 @@ get_latest_beta() {
     fi
 }
 
+# Increment minor version (1.1.0 -> 1.2.0)
+increment_minor_version() {
+    local version=$1
+    local major
+    local minor
+    local patch
+    
+    major=$(echo "$version" | cut -d. -f1)
+    minor=$(echo "$version" | cut -d. -f2)
+    patch=$(echo "$version" | cut -d. -f3)
+    
+    local new_minor=$((minor + 1))
+    echo "${major}.${new_minor}.0"
+}
+
+# Update version in package.json and manifest.webapp
+update_version_in_files() {
+    local old_version=$1
+    local new_version=$2
+    
+    info "Updating version from $old_version to $new_version..."
+    
+    # Update package.json
+    if [ -f "package.json" ]; then
+        sed -i.bak "s/\"version\": *\"$old_version\"/\"version\": \"$new_version\"/" package.json
+        rm -f package.json.bak
+    fi
+    
+    # Update manifest.webapp
+    if [ -f "manifest.webapp" ]; then
+        sed -i.bak "s/\"version\": *\"$old_version\"/\"version\": \"$new_version\"/" manifest.webapp
+        rm -f manifest.webapp.bak
+    fi
+    
+    success "Version updated in package.json and manifest.webapp"
+}
+
+# Bump version on master branch after creating release branch
+bump_version_on_master() {
+    local old_version=$1
+    local base_branch=$2
+    local new_version
+    
+    new_version=$(increment_minor_version "$old_version")
+    
+    info "Bumping version on $base_branch to $new_version..."
+    
+    # Checkout master
+    git checkout "$base_branch" || error "Unable to checkout $base_branch"
+    
+    # Update version in files
+    update_version_in_files "$old_version" "$new_version"
+    
+    # Create commit
+    git add package.json manifest.webapp
+    git commit -m "chore: Bump to $new_version" || error "Unable to create commit"
+    
+    # Push with force-with-lease
+    git push origin "$base_branch" --force-with-lease || error "Unable to push to $base_branch"
+    
+    success "Version bumped to $new_version on $base_branch"
+}
+
+# Open GitHub releases page in browser
+open_releases_page() {
+    info "Opening GitHub releases page..."
+    gh browse --releases || warning "Unable to open browser"
+}
+
 # Increment beta number (1.0.0-beta.2 -> 1.0.0-beta.3)
 increment_beta() {
     local latest_beta=$1
@@ -216,6 +285,12 @@ create_new_beta_branch() {
     
     # Create GitHub release
     create_github_release "$tag" "true"
+    
+    # Bump version on master
+    bump_version_on_master "$version" "$base_branch"
+    
+    # Open releases page
+    open_releases_page
 }
 
 # Option 2: Add a beta to the latest existing release branch
@@ -258,6 +333,9 @@ add_beta_to_existing() {
     
     # Create GitHub release
     create_github_release "$next_beta" "true"
+    
+    # Open releases page
+    open_releases_page
 }
 
 # Option 3: Create a final release on the latest existing release branch
@@ -289,6 +367,9 @@ create_final_release() {
     
     # Create GitHub release
     create_github_release "$version" "false"
+    
+    # Open releases page
+    open_releases_page
 }
 
 # Display main menu
