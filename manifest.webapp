@@ -26,6 +26,16 @@
       "type": "io.cozy.apps",
       "verbs": ["GET"]
     },
+    "contacts": {
+      "description": "Required by the cozy-bar to display the avatar",
+      "type": "io.cozy.contacts",
+      "verbs": ["GET"]
+    },
+    "files": {
+      "description": "Required to get shortcuts",
+      "type": "io.cozy.files",
+      "verbs": ["GET"]
+    },
     "settings": {
       "description": "Required by the cozy-bar to display storage usage",
       "type": "io.cozy.settings",
