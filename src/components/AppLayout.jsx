@@ -14,6 +14,11 @@ const AppLayout = ({ isPublic }) => {
         appIcon={Visio}
         appTextIcon={VisioText}
         searchOptions={{ enabled: false }}
+        componentsProps={{
+          CozyTheme: {
+            type: 'light'
+          }
+        }}
       />
       <Outlet />
     </>
