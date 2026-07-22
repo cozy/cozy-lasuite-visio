@@ -1,5 +1,3 @@
-import cozyReact from 'eslint-config-cozy-app/react'
+import config from 'eslint-config-cozy-app/react'
 
-export default [
-  ...cozyReact
-]
+export default [...config]
