@@ -2330,32 +2330,41 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/config-array@npm:^0.23.3":
-  version: 0.23.3
-  resolution: "@eslint/config-array@npm:0.23.3"
+"@eslint/config-array@npm:^0.23.5":
+  version: 0.23.5
+  resolution: "@eslint/config-array@npm:0.23.5"
   dependencies:
-    "@eslint/object-schema": "npm:^3.0.3"
+    "@eslint/object-schema": "npm:^3.0.5"
     debug: "npm:^4.3.1"
     minimatch: "npm:^10.2.4"
-  checksum: 10c0/7c19027acf9110cc542513ff9f3ca73a61d127e900c24f0e8e4d5e18aa22baf08d1d5bc386563d2f9311095f3b7898fe9b627b590fe9232b745ef60d4443cf9f
+  checksum: 10c0/b24833c4c76e78ee075d306cd3f095db46b2db0f90cc13a6ee6e4275f9889731c05bf5403ab5fefb79c756e07ac9184ed0e04570341382f9eccbccc80e6d1a0c
   languageName: node
   linkType: hard
 
-"@eslint/config-helpers@npm:^0.5.2":
-  version: 0.5.3
-  resolution: "@eslint/config-helpers@npm:0.5.3"
+"@eslint/config-helpers@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "@eslint/config-helpers@npm:0.6.0"
   dependencies:
-    "@eslint/core": "npm:^1.1.1"
-  checksum: 10c0/c836476e839a79dcdc9f7e0013057cfe0341162180d50e5a08668edb4b4b6c520a3174011469f6ef02efd2affd092263c020e89d0a3452c801427b0ac003549a
+    "@eslint/core": "npm:^1.2.1"
+  checksum: 10c0/f9af20e8b60b0ba27edb74b8eb40c0c5d51a9bf9baf9e053bb57833a87cb0a1c49b4dfaad88fc24d49c907ad1324c8a0b668684fa9c321351dac4bc9155ec10a
   languageName: node
   linkType: hard
 
-"@eslint/core@npm:^1.1.0, @eslint/core@npm:^1.1.1":
+"@eslint/core@npm:^1.1.0":
   version: 1.1.1
   resolution: "@eslint/core@npm:1.1.1"
   dependencies:
     "@types/json-schema": "npm:^7.0.15"
   checksum: 10c0/129c654c78afc1f6d61dccb0ce841be667f09f052f7d5642614b6ba5eeebd579ca6cc336d7b750d88625e61f7aad22fdd62bf83847fbfc10cc3e58cfe6c5072e
+  languageName: node
+  linkType: hard
+
+"@eslint/core@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "@eslint/core@npm:1.2.1"
+  dependencies:
+    "@types/json-schema": "npm:^7.0.15"
+  checksum: 10c0/10979b40588ecfef771fcb5013a542a35fb30692cc95a65f3481b0b36fbd89f5679efeb30d57f4eed35203d859aabace2a620177d6c536f71b299a1af2f3398f
   languageName: node
   linkType: hard
 
@@ -2371,20 +2380,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/object-schema@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "@eslint/object-schema@npm:3.0.3"
-  checksum: 10c0/4abbb7cba5419dce46ae8aa8e979fa190f2e906a8e1b5a8e22e4489f62a68dea3967679f66acbc0c3ef89f33252a7460e39fc2d6f2b4f616a137f3514eda4784
+"@eslint/object-schema@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "@eslint/object-schema@npm:3.0.5"
+  checksum: 10c0/1db337431f520b99e9edda64ef5fafd7ec6a029843eeb608753025125b6649d861d843cffafafd3c4e37926d7d5f9ec0c6a8e3665c13c3da2144e8132892e92e
   languageName: node
   linkType: hard
 
-"@eslint/plugin-kit@npm:^0.6.1":
-  version: 0.6.1
-  resolution: "@eslint/plugin-kit@npm:0.6.1"
+"@eslint/plugin-kit@npm:^0.7.2":
+  version: 0.7.2
+  resolution: "@eslint/plugin-kit@npm:0.7.2"
   dependencies:
-    "@eslint/core": "npm:^1.1.1"
+    "@eslint/core": "npm:^1.2.1"
     levn: "npm:^0.4.1"
-  checksum: 10c0/f8354a7b92cc41e7a55d51986d192134be84f9dc0c91b5e649d075d733b56981c4ca8bf4460d54120c4c87b47984167bad2cb9bceb303f11b0a3bad22b3ed06a
+  checksum: 10c0/aafba08077bcd6d7dde6c2e21db18086046a88f914f29971a84cac9ad2d48952ded1b293e665e523805297eff756522dafa16f0062195e2c7143dcd1d47d11ed
   languageName: node
   linkType: hard
 
@@ -2659,6 +2668,17 @@ __metadata:
   version: 3.3.1
   resolution: "@juggle/resize-observer@npm:3.3.1"
   checksum: 10c0/28b9c0b84359651f5317f00a9affa3b8ce38ce81926f9cdba1ae478ae51c61e4777dee2b7a974952139ecc4e3be6b73fbb5ec9611e92c3e7aba8f3b08e3d3f5d
+  languageName: node
+  linkType: hard
+
+"@linagora/twake-icons@npm:^2.7.0":
+  version: 2.7.0
+  resolution: "@linagora/twake-icons@npm:2.7.0"
+  dependencies:
+    mime: "npm:4.1.0"
+  peerDependencies:
+    react: ^18
+  checksum: 10c0/03fcea699a7a7f7d821ee05b5b36eac58f3e14c516891404e7f1b5a5828d2fc724253c9e2f60731748de4c7e07244dca0e9b9199031eb56d5994655d362eb295
   languageName: node
   linkType: hard
 
@@ -4692,92 +4712,92 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rspack/binding-darwin-arm64@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-darwin-arm64@npm:1.7.9"
+"@rspack/binding-darwin-arm64@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-darwin-arm64@npm:1.7.12"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rspack/binding-darwin-x64@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-darwin-x64@npm:1.7.9"
+"@rspack/binding-darwin-x64@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-darwin-x64@npm:1.7.12"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rspack/binding-linux-arm64-gnu@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-linux-arm64-gnu@npm:1.7.9"
+"@rspack/binding-linux-arm64-gnu@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-linux-arm64-gnu@npm:1.7.12"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rspack/binding-linux-arm64-musl@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-linux-arm64-musl@npm:1.7.9"
+"@rspack/binding-linux-arm64-musl@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-linux-arm64-musl@npm:1.7.12"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@rspack/binding-linux-x64-gnu@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-linux-x64-gnu@npm:1.7.9"
+"@rspack/binding-linux-x64-gnu@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-linux-x64-gnu@npm:1.7.12"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rspack/binding-linux-x64-musl@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-linux-x64-musl@npm:1.7.9"
+"@rspack/binding-linux-x64-musl@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-linux-x64-musl@npm:1.7.12"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@rspack/binding-wasm32-wasi@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-wasm32-wasi@npm:1.7.9"
+"@rspack/binding-wasm32-wasi@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-wasm32-wasi@npm:1.7.12"
   dependencies:
     "@napi-rs/wasm-runtime": "npm:1.0.7"
   conditions: cpu=wasm32
   languageName: node
   linkType: hard
 
-"@rspack/binding-win32-arm64-msvc@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-win32-arm64-msvc@npm:1.7.9"
+"@rspack/binding-win32-arm64-msvc@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-win32-arm64-msvc@npm:1.7.12"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rspack/binding-win32-ia32-msvc@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-win32-ia32-msvc@npm:1.7.9"
+"@rspack/binding-win32-ia32-msvc@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-win32-ia32-msvc@npm:1.7.12"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@rspack/binding-win32-x64-msvc@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding-win32-x64-msvc@npm:1.7.9"
+"@rspack/binding-win32-x64-msvc@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding-win32-x64-msvc@npm:1.7.12"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@rspack/binding@npm:1.7.9":
-  version: 1.7.9
-  resolution: "@rspack/binding@npm:1.7.9"
+"@rspack/binding@npm:1.7.12":
+  version: 1.7.12
+  resolution: "@rspack/binding@npm:1.7.12"
   dependencies:
-    "@rspack/binding-darwin-arm64": "npm:1.7.9"
-    "@rspack/binding-darwin-x64": "npm:1.7.9"
-    "@rspack/binding-linux-arm64-gnu": "npm:1.7.9"
-    "@rspack/binding-linux-arm64-musl": "npm:1.7.9"
-    "@rspack/binding-linux-x64-gnu": "npm:1.7.9"
-    "@rspack/binding-linux-x64-musl": "npm:1.7.9"
-    "@rspack/binding-wasm32-wasi": "npm:1.7.9"
-    "@rspack/binding-win32-arm64-msvc": "npm:1.7.9"
-    "@rspack/binding-win32-ia32-msvc": "npm:1.7.9"
-    "@rspack/binding-win32-x64-msvc": "npm:1.7.9"
+    "@rspack/binding-darwin-arm64": "npm:1.7.12"
+    "@rspack/binding-darwin-x64": "npm:1.7.12"
+    "@rspack/binding-linux-arm64-gnu": "npm:1.7.12"
+    "@rspack/binding-linux-arm64-musl": "npm:1.7.12"
+    "@rspack/binding-linux-x64-gnu": "npm:1.7.12"
+    "@rspack/binding-linux-x64-musl": "npm:1.7.12"
+    "@rspack/binding-wasm32-wasi": "npm:1.7.12"
+    "@rspack/binding-win32-arm64-msvc": "npm:1.7.12"
+    "@rspack/binding-win32-ia32-msvc": "npm:1.7.12"
+    "@rspack/binding-win32-x64-msvc": "npm:1.7.12"
   dependenciesMeta:
     "@rspack/binding-darwin-arm64":
       optional: true
@@ -4799,23 +4819,23 @@ __metadata:
       optional: true
     "@rspack/binding-win32-x64-msvc":
       optional: true
-  checksum: 10c0/ca8e0523922e3d6b60d9420f2b0e5f9e18733edebd5b7462a23e8ae7b6f6d5ae3a2a65fde1ccceee8f9197fe4b96d1acf169c37749107a9d33379f2e3fec058b
+  checksum: 10c0/0bca963309c75418148ce67f9c102b11662844bc2412257da9e4fb56917bf279f37d5ebd8f6d641405bcde54d43384adc5693e22bc15c571f949a99a90aa6ec9
   languageName: node
   linkType: hard
 
 "@rspack/core@npm:~1.7.5":
-  version: 1.7.9
-  resolution: "@rspack/core@npm:1.7.9"
+  version: 1.7.12
+  resolution: "@rspack/core@npm:1.7.12"
   dependencies:
     "@module-federation/runtime-tools": "npm:0.22.0"
-    "@rspack/binding": "npm:1.7.9"
+    "@rspack/binding": "npm:1.7.12"
     "@rspack/lite-tapable": "npm:1.1.0"
   peerDependencies:
     "@swc/helpers": ">=0.5.1"
   peerDependenciesMeta:
     "@swc/helpers":
       optional: true
-  checksum: 10c0/014c7f63936b569818a9a4d17b601fae6ee98bfeca5b2ea4a21906075cca9eac4b157750c372ee89e6ae8a9a1e14988805a80d4a71c6d63ad76db84ecacbd260
+  checksum: 10c0/575737cffae45720563a8f5bc933058a0c6c42dbae1a41b53f98c44281146eb5f917f118c866d53aa8e0f2b4533dae092c564f27412affb58ae3dbeb853266b4
   languageName: node
   linkType: hard
 
@@ -5013,11 +5033,11 @@ __metadata:
   linkType: hard
 
 "@swc/helpers@npm:^0.5.18":
-  version: 0.5.19
-  resolution: "@swc/helpers@npm:0.5.19"
+  version: 0.5.23
+  resolution: "@swc/helpers@npm:0.5.23"
   dependencies:
     tslib: "npm:^2.8.0"
-  checksum: 10c0/30317ee644d390c88dd975b11b5260f7c70602bfb81ec386b3807d97a763215df7f501e43b0246e0773150fcfd835349bcdcb3b220d121e485ee528a72b5fd79
+  checksum: 10c0/02da7b4df465693933ecd4851cc193ec729c309939c8a84eccae5ec0010aafc3894e713b8ef8d13a6ba401759f0e900c88e2dcfef5872c27bb91e70f73275cce
   languageName: node
   linkType: hard
 
@@ -7294,15 +7314,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-bar@npm:33.3.3":
-  version: 33.3.3
-  resolution: "cozy-bar@npm:33.3.3"
+"cozy-bar@npm:^35.2.1":
+  version: 35.2.1
+  resolution: "cozy-bar@npm:35.2.1"
   dependencies:
     classnames: "npm:^2.5.1"
     lodash.set: "npm:^4.3.2"
     prop-types: "npm:15.7.2"
   peerDependencies:
     "@cozy/minilog": ">=1.0.0"
+    "@linagora/twake-icons": ">=2.6.6"
     cozy-client: ">=60.21.0"
     cozy-dataproxy-lib: ">=4.1.0"
     cozy-device-helper: ">=2.6.0"
@@ -7316,20 +7337,20 @@ __metadata:
     react-dom: ^16 || ^17 || ^18
     react-router-dom: ">=6.14.2"
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/19ccc5d9175d1f5ac42e702a4e53e736d77a6b7b504235cc34ee6accc01112eddf5329f23e2e6e62428074f0eea8e9c74b8950970265dd3c6d5694f24dfea2e0
+  checksum: 10c0/94f530053e7a1335f41ef20f457d4c7edd0c6c5b9417bc6dda8f203aeca659a697dfcc22fa0bc75758bd581624f1897568eb7b49b791ca9c06cdbaf85f1354b7
   languageName: node
   linkType: hard
 
-"cozy-client@npm:^60.23.1":
-  version: 60.23.1
-  resolution: "cozy-client@npm:60.23.1"
+"cozy-client@npm:^60.29.0":
+  version: 60.29.0
+  resolution: "cozy-client@npm:60.29.0"
   dependencies:
     "@cozy/minilog": "npm:1.0.0"
     "@fastify/deepmerge": "npm:^2.0.2"
     "@types/jest": "npm:^26.0.20"
     "@types/lodash": "npm:^4.14.170"
     btoa: "npm:^1.2.1"
-    cozy-stack-client: "npm:^60.23.0"
+    cozy-stack-client: "npm:^60.28.0"
     date-fns: "npm:^2.30.0"
     fast-deep-equal: "npm:^3.1.3"
     json-stable-stringify: "npm:^1.0.1"
@@ -7355,13 +7376,13 @@ __metadata:
     react-native-google-play-integrity: ^1.1.0
     react-native-inappbrowser-reborn: ^3.5.1
     react-native-ios11-devicecheck: ^0.0.3
-  checksum: 10c0/8ec1bc182f0b7b7b6240c34b4dbd3918801384310ac48d9ccf3d1b4579cf397182df2a1dfe15e3da109db44ad6c6dd6d0d4166a2f164873ef7629d2b79fd2db9
+  checksum: 10c0/8d850c2bd2716303069d6fc430ce3ba25ff42b2dfb0cf4cd25bdbf6f7eda6a00a7ef27cb1dc3d692e9998c10e383294bf3840ae154739f37db29b08c269f91c3
   languageName: node
   linkType: hard
 
-"cozy-dataproxy-lib@npm:^4.14.1":
-  version: 4.14.1
-  resolution: "cozy-dataproxy-lib@npm:4.14.1"
+"cozy-dataproxy-lib@npm:^4.15.5":
+  version: 4.15.5
+  resolution: "cozy-dataproxy-lib@npm:4.15.5"
   dependencies:
     comlink: "npm:4.4.1"
     flexsearch: "npm:0.7.43"
@@ -7373,12 +7394,12 @@ __metadata:
     cozy-logger: ">=1.10.4"
     cozy-minilog: ">=3.3.1"
     cozy-pouch-link: 60.10.1
-    cozy-realtime: ">=5.6.4"
+    cozy-realtime: ">=5.9.2"
     cozy-ui: ">=111.19.0"
     react: ">=16.12.0"
     react-dom: ">=16.12.0"
     react-router-dom: ^6.28.0
-  checksum: 10c0/5515969be0ed36ce680650c1ddcabffc59d3c7b54f5837267b16ed5c43bb07bc4604614d2c2ce09af20ff46920ad5fdfa1fe0aa848435cdc0ea93c72f0f81667
+  checksum: 10c0/7bdb9a524a13251671565059d2cea77e50b2a357b59accea67ba9d19a8076071969d432db6dce4bde2680c8537f0f343f2251a68cb51829d8aa59ea5219981db
   languageName: node
   linkType: hard
 
@@ -7389,9 +7410,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-external-bridge-container@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "cozy-external-bridge-container@npm:1.2.1"
+"cozy-external-bridge-container@npm:^1.2.7":
+  version: 1.2.7
+  resolution: "cozy-external-bridge-container@npm:1.2.7"
   dependencies:
     comlink: "npm:4.4.1"
   peerDependencies:
@@ -7402,7 +7423,7 @@ __metadata:
     react: ">=16.12.0"
     react-dom: ">=16.12.0"
     react-router-dom: ">=6.14.2"
-  checksum: 10c0/ea00c327b135a1dabc1a121d086c93785135d6150a8a1e23e6904592174244562c17982fe1637d6e1c51f8daed566424fd3fd49519592d7e0ff2c89c55487bb6
+  checksum: 10c0/7d816feec5eac6676873cfd617b4b61310aee1dd5fcf2f4cd9aea24dda4e8a04c4563038ca15ba5222915f206fdaa99076eb06eefb5179d6d7b53dd3adcd20c9
   languageName: node
   linkType: hard
 
@@ -7432,12 +7453,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-interapp@npm:^0.17.1":
-  version: 0.17.1
-  resolution: "cozy-interapp@npm:0.17.1"
+"cozy-interapp@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "cozy-interapp@npm:0.18.0"
   peerDependencies:
     "@babel/runtime": ">=7.12.5"
-  checksum: 10c0/b3ec14d4a4aaf897f6bd441c841f34861afbfd85bcec7fc713939f4c53e072ce1a0547ec67888aa7a1735fc5578cff0e022214cc231f3f8f132322ee2f3fe46e
+  checksum: 10c0/bdc12ddea7d1312810dac71523efc9b43c9d843cae6ba5fe879f151e044c0311513478ef0b70610355fb74de48178177611fa074d659ab295b918b703ac48e2d
   languageName: node
   linkType: hard
 
@@ -7460,35 +7481,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-pouch-link@npm:^60.23.1":
-  version: 60.23.1
-  resolution: "cozy-pouch-link@npm:60.23.1"
+"cozy-pouch-link@npm:^60.29.0":
+  version: 60.29.0
+  resolution: "cozy-pouch-link@npm:60.29.0"
   dependencies:
-    cozy-client: "npm:^60.23.1"
+    cozy-client: "npm:^60.29.0"
     pouchdb-browser: "npm:^7.2.2"
     pouchdb-find: "npm:^7.2.2"
   peerDependencies:
     "@cozy/minilog": 1.0.0
     "@op-engineering/op-sqlite": "*"
     cozy-device-helper: ">=2.1.0"
-  checksum: 10c0/2022dbfaa74a294237bc3a50965167512f134a9e486586741a50f03b9ba268b9481dab69d38ba3f706b8757ccf775919c406cc7ce594682166f53762ffa505b4
+  checksum: 10c0/78502c5c4b78a61aeb5af4602298440190f6d6b310aedc07c0daa9f3f08cbdd67514f1b53d17d2c7941e0e93bd627edd6d2c5412399d94945d466effdfe2f214
   languageName: node
   linkType: hard
 
-"cozy-realtime@npm:^5.9.1":
-  version: 5.9.1
-  resolution: "cozy-realtime@npm:5.9.1"
+"cozy-realtime@npm:^5.9.3":
+  version: 5.9.3
+  resolution: "cozy-realtime@npm:5.9.3"
   dependencies:
     "@cozy/minilog": "npm:^1.0.0"
   peerDependencies:
     cozy-client: ">=13.15.1"
-  checksum: 10c0/a53efb55352a1cecd3ce29207623da443ce15820bde11f831abae1b136b66a0283f81aabf989885cae928f614f0787f72e58f7af4d5a0f11ac0160846dab68bd
+  checksum: 10c0/f497d4716917db27a847cd89a6c91cd9610bce2c92fbeed052c34bc1b2ac1e1a82309190dd5d778f023093c06145a67c9fa77ab31744796c509b376047dfca67
   languageName: node
   linkType: hard
 
-"cozy-search@npm:^0.24.0":
-  version: 0.24.0
-  resolution: "cozy-search@npm:0.24.0"
+"cozy-search@npm:^2.0.11":
+  version: 2.0.11
+  resolution: "cozy-search@npm:2.0.11"
   dependencies:
     "@assistant-ui/react": "npm:^0.12.5"
     classnames: "npm:^2.5.1"
@@ -7497,7 +7518,8 @@ __metadata:
     react-type-animation: "npm:3.2.0"
     rooks: "npm:7.14.1"
   peerDependencies:
-    cozy-client: ">=60.21.0"
+    "@linagora/twake-icons": ">=2.6.6"
+    cozy-client: ">=60.26.0"
     cozy-device-helper: ">=3.7.1"
     cozy-flags: ">=4.6.1"
     cozy-intent: ">=2.26.0"
@@ -7505,26 +7527,26 @@ __metadata:
     cozy-minilog: ">=3.3.1"
     cozy-pouch-link: 54.0.0
     cozy-realtime: ">=5.6.4"
-    cozy-ui: ">=138.1.0"
+    cozy-ui: ">=138.4.0"
     cozy-ui-plus: ">=6.0.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
     react-router-dom: ^6.28.0
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/471a8b0797da617f214e13564b6dbf54dc0600ceb95883e19198f645f0455d902477f75de0c551b55787a61d12764ff9101de11703d2b5da2afa22bf7a175336
+  checksum: 10c0/48a95259792f0c8d289c30f9de783d29276499b4f0774aec6ab6db84fab761e7dfb233cde8fb33e3476088b4c2e251586fb155b06de6a5c84bcf3175ba878550
   languageName: node
   linkType: hard
 
-"cozy-stack-client@npm:^60.23.0":
-  version: 60.23.0
-  resolution: "cozy-stack-client@npm:60.23.0"
+"cozy-stack-client@npm:^60.28.0":
+  version: 60.28.0
+  resolution: "cozy-stack-client@npm:60.28.0"
   dependencies:
     detect-node: "npm:^2.0.4"
     mime: "npm:^2.4.0"
     qs: "npm:^6.7.0"
   peerDependencies:
     cozy-flags: ">2.8.6"
-  checksum: 10c0/c0b402de95699a896ca68f36f38197bc525f72a5bb02654215d385c4833b494b816fbc5bcccaf01fd343031a59652808563f32e236300bb1a4418b1a65a0ebb3
+  checksum: 10c0/e34fcb9bdeb36e7053528b925c9a432cf3015000d555adbb39a5ff8121d823e74603576ec634b39d7489c3f8f7cfd440cc0ba997508d60dfe6be5ffc9e0809df
   languageName: node
   linkType: hard
 
@@ -7540,9 +7562,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-ui-plus@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "cozy-ui-plus@npm:8.0.1"
+"cozy-ui-plus@npm:^12.1.2":
+  version: 12.1.2
+  resolution: "cozy-ui-plus@npm:12.1.2"
   dependencies:
     classnames: "npm:^2.5.1"
     filesize: "npm:8.0.7"
@@ -7555,22 +7577,24 @@ __metadata:
     react-international-phone: "npm:4.7.0"
     rooks: "npm:7.14.1"
   peerDependencies:
+    "@linagora/twake-icons": ">=2.6.6"
     cozy-client: ">=60.21.3"
     cozy-device-helper: ">=2.0.0"
     cozy-intent: ">=2.30.0"
     cozy-interapp: ">=0.17.1"
     cozy-logger: ">=1.17.0"
+    cozy-sharing: ">=36.4.0"
     cozy-ui: ">=138.1.0"
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/3d461e22da9182ed8c87672fbd7915a24fadbf9dc9a085b9ba8384142af1c74f911723f0658e63a7eaa09e52c790ec9fb60bc635297870f7e23bd2800dfcdf77
+  checksum: 10c0/c468dc1abaa17cdd9e33a7f4a4efff7a8ef884520079d1ec1779b17d697babfe8604bb06d7c39c3041098c59f5d749e11e8378fd45ea683a35bbb9803e4e965b
   languageName: node
   linkType: hard
 
-"cozy-ui@npm:138.7.0":
-  version: 138.7.0
-  resolution: "cozy-ui@npm:138.7.0"
+"cozy-ui@npm:^140.5.2":
+  version: 140.5.2
+  resolution: "cozy-ui@npm:140.5.2"
   dependencies:
     "@babel/runtime": "npm:^7.3.4"
     "@date-io/date-fns": "npm:1"
@@ -7587,6 +7611,7 @@ __metadata:
     normalize.css: "npm:^8.0.0"
     patch-package: "npm:^8.0.0"
     pdf-lib: "npm:1.17.1"
+    react-colorful: "npm:5.7.0"
     react-markdown: "npm:^4.0.8"
     react-popper: "npm:^2.2.3"
     react-remove-scroll: "npm:^2.4.0"
@@ -7595,6 +7620,7 @@ __metadata:
     react-virtuoso: "npm:^4.13.0"
     rooks: "npm:7.14.1"
   peerDependencies:
+    "@linagora/twake-icons": ">=2.6.2"
     cozy-device-helper: ">=2.0.0"
     cozy-intent: ">=2.29.1"
     react: ^16 || ^17 || ^18
@@ -7604,7 +7630,7 @@ __metadata:
     twake-i18n: ">=0.3.0"
   bin:
     rsg-screenshots: scripts/screenshots.js
-  checksum: 10c0/3eda8442567a8cbfa70d7fa2993b8803e5d459d81bb839036ec000e156c036a0af55db80e8feceadbbab864656d5608f5e0bdcfa95de7a76c85741752427e323
+  checksum: 10c0/1bbd7369a2ff4e8b1ee2c5ebfdf0f52c5ea3771cc8001ba5fccefa679ba5d15cb60adfd55d82de890502c6f7b85776d8f7a78e7ce689a9275c65601463984a79
   languageName: node
   linkType: hard
 
@@ -8809,9 +8835,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-cozy-app@npm:7.0.0":
-  version: 7.0.0
-  resolution: "eslint-config-cozy-app@npm:7.0.0"
+"eslint-config-cozy-app@npm:7.1.0":
+  version: 7.1.0
+  resolution: "eslint-config-cozy-app@npm:7.1.0"
   dependencies:
     "@eslint/compat": "npm:2.0.2"
     "@eslint/js": "npm:10.0.1"
@@ -8831,7 +8857,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/87bc3ff0d0f012016f66ea476c26dd0d15fabbd87a66822905d3f6c6c5744deafa85ecb2686a4a7727d32aaa06c75be7601fd64e5dd6c899688991c5bbcfac17
+  checksum: 10c0/77c2c2e10441b8cb10a8eba7b165667324a82d8cf49239e399efdaf53ae9b4780462309c9c9c208a0afaa5b8247ae662d9b41d75932d9c70c2cec23b51cd3b31
   languageName: node
   linkType: hard
 
@@ -9036,16 +9062,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:10.0.3":
-  version: 10.0.3
-  resolution: "eslint@npm:10.0.3"
+"eslint@npm:10.7.0":
+  version: 10.7.0
+  resolution: "eslint@npm:10.7.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.8.0"
     "@eslint-community/regexpp": "npm:^4.12.2"
-    "@eslint/config-array": "npm:^0.23.3"
-    "@eslint/config-helpers": "npm:^0.5.2"
-    "@eslint/core": "npm:^1.1.1"
-    "@eslint/plugin-kit": "npm:^0.6.1"
+    "@eslint/config-array": "npm:^0.23.5"
+    "@eslint/config-helpers": "npm:^0.6.0"
+    "@eslint/core": "npm:^1.2.1"
+    "@eslint/plugin-kit": "npm:^0.7.2"
     "@humanfs/node": "npm:^0.16.6"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@humanwhocodes/retry": "npm:^0.4.2"
@@ -9056,7 +9082,7 @@ __metadata:
     escape-string-regexp: "npm:^4.0.0"
     eslint-scope: "npm:^9.1.2"
     eslint-visitor-keys: "npm:^5.0.1"
-    espree: "npm:^11.1.1"
+    espree: "npm:^11.2.0"
     esquery: "npm:^1.7.0"
     esutils: "npm:^2.0.2"
     fast-deep-equal: "npm:^3.1.3"
@@ -9077,11 +9103,11 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/fbbb4d99cb6af5c30b163b7898241dbac1cd1cee0e6746d5732a95e3b1e68b5bea0bc27cb78e8440a39cf4cc98c7f52cf5ed8d7c2bbdf2232662476d113c41fc
+  checksum: 10c0/d9415f506730c098ab8897da39f5719cdf9d1026c9511c322d4a272677f904b7d43ff423d63ee941c9a03d74d1a75563ce2668886734b1f293b22e57911a6dd6
   languageName: node
   linkType: hard
 
-"espree@npm:^11.1.1":
+"espree@npm:^11.2.0":
   version: 11.2.0
   resolution: "espree@npm:11.2.0"
   dependencies:
@@ -12271,6 +12297,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mime@npm:4.1.0":
+  version: 4.1.0
+  resolution: "mime@npm:4.1.0"
+  bin:
+    mime: bin/cli.js
+  checksum: 10c0/3b8602e50dff1049aea8bb2d4c65afc55bf7f3eb5c17fd2bcb315b8c8ae225a7553297d424d3621757c24cdba99e930ecdc4108467009cdc7ed55614cd55031d
+  languageName: node
+  linkType: hard
+
 "mime@npm:^2.4.0":
   version: 2.6.0
   resolution: "mime@npm:2.6.0"
@@ -13985,6 +14020,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-colorful@npm:5.7.0":
+  version: 5.7.0
+  resolution: "react-colorful@npm:5.7.0"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 10c0/d8db4e66b6f6edf30cc2bb6c755bea45e8e133f9667c373897a048da6931d1a31554c0253043be7853c21f9df1e0928af9528122f698bcd5b847a83663c58f0e
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
@@ -15033,9 +15078,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rsbuild-config-cozy-app@npm:0.7.2":
-  version: 0.7.2
-  resolution: "rsbuild-config-cozy-app@npm:0.7.2"
+"rsbuild-config-cozy-app@npm:0.8.0":
+  version: 0.8.0
+  resolution: "rsbuild-config-cozy-app@npm:0.8.0"
   dependencies:
     "@rsbuild/plugin-node-polyfill": "npm:1.4.2"
     "@rsbuild/plugin-react": "npm:1.4.0"
@@ -15046,7 +15091,7 @@ __metadata:
   peerDependencies:
     "@rsbuild/core": ">= 1.5.4"
     cozy-ui: ">= 113.2.0"
-  checksum: 10c0/2bec8610ff0e810403fe846b5cbba56048d6a7a1327237ecce477708dc201dee18f1e076f7cfba8a64df16ea1a3f3bf69d66a1549bb1e14c2342c1441eda9fd4
+  checksum: 10c0/59ae414681456ec317a04bcbf539ca75cba3006e550b3e9ea2ba6ce62fedf8051cda9bf2c5ed97e60a8512f957d47f0f074f7590832f450c7e4496bf93c5a71e
   languageName: node
   linkType: hard
 
@@ -17227,32 +17272,33 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "visio@workspace:."
   dependencies:
+    "@linagora/twake-icons": "npm:^2.7.0"
     "@rsbuild/core": "npm:1.7.3"
     babel-preset-cozy-app: "npm:2.8.4"
     comlink: "npm:^4.4.2"
     cozy-app-publish: "npm:0.44.1"
-    cozy-bar: "npm:33.3.3"
-    cozy-client: "npm:^60.23.1"
-    cozy-dataproxy-lib: "npm:^4.14.1"
+    cozy-bar: "npm:^35.2.1"
+    cozy-client: "npm:^60.29.0"
+    cozy-dataproxy-lib: "npm:^4.15.5"
     cozy-device-helper: "npm:^4.0.3"
-    cozy-external-bridge-container: "npm:^1.2.1"
+    cozy-external-bridge-container: "npm:^1.2.7"
     cozy-flags: "npm:^4.9.1"
     cozy-intent: "npm:^2.31.1"
-    cozy-interapp: "npm:^0.17.1"
+    cozy-interapp: "npm:^0.18.0"
     cozy-logger: "npm:^1.18.1"
     cozy-minilog: "npm:^3.10.1"
-    cozy-pouch-link: "npm:^60.23.1"
-    cozy-realtime: "npm:^5.9.1"
-    cozy-search: "npm:^0.24.0"
+    cozy-pouch-link: "npm:^60.29.0"
+    cozy-realtime: "npm:^5.9.3"
+    cozy-search: "npm:^2.0.11"
     cozy-tsconfig: "npm:1.8.1"
-    cozy-ui: "npm:138.7.0"
-    cozy-ui-plus: "npm:^8.0.1"
-    eslint: "npm:10.0.3"
-    eslint-config-cozy-app: "npm:7.0.0"
+    cozy-ui: "npm:^140.5.2"
+    cozy-ui-plus: "npm:^12.1.2"
+    eslint: "npm:10.7.0"
+    eslint-config-cozy-app: "npm:7.1.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     react-router-dom: "npm:6.30.3"
-    rsbuild-config-cozy-app: "npm:0.7.2"
+    rsbuild-config-cozy-app: "npm:0.8.0"
     stylint: "npm:1.5.9"
     stylus-config-cozy-app: "npm:0.1.0"
     twake-i18n: "npm:^0.4.1"
