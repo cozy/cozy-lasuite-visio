@@ -7314,12 +7314,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-bar@npm:^35.4.0":
-  version: 35.4.0
-  resolution: "cozy-bar@npm:35.4.0"
+"cozy-bar@npm:^36.2.0":
+  version: 36.2.15
+  resolution: "cozy-bar@npm:36.2.15"
   dependencies:
     classnames: "npm:^2.5.1"
-    lodash.set: "npm:^4.3.2"
     prop-types: "npm:15.7.2"
   peerDependencies:
     "@cozy/minilog": ">=1.0.0"
@@ -7337,7 +7336,7 @@ __metadata:
     react-dom: ^16 || ^17 || ^18
     react-router-dom: ">=6.14.2"
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/7cc222aa38cb0ac4c4d403ea3c3e6b160deea3c6bd9b632b4e4bcd7a9a7477169160fc5b18bd06d1c0afc7bac65298ea2bd71090a400d11cdb11b7a0c57d854b
+  checksum: 10c0/eded690e6e8e4176e6cb88c57598f647c73c24092e26a8edfcf30421e6530a2b17a524b9874c83818d734769a8a1ee33f015c7b2631f07eea95c09796af6c2f3
   languageName: node
   linkType: hard
 
@@ -12039,13 +12038,6 @@ __metadata:
   version: 4.0.5
   resolution: "lodash.rest@npm:4.0.5"
   checksum: 10c0/9cce9ee7d60af22282967479146ae994aac1caba9af4c9ea59ae354380b3f9cfc37d8567fa07ee2985f517a246cd1d7e5886564c9da8daf3a5db337e742c8368
-  languageName: node
-  linkType: hard
-
-"lodash.set@npm:^4.3.2":
-  version: 4.3.2
-  resolution: "lodash.set@npm:4.3.2"
-  checksum: 10c0/c641d31905e51df43170dce8a1d11a1cff11356e2e2e75fe2615995408e9687d58c3e1d64c3c284c2df2bc519f79a98af737d2944d382ff82ffd244ff6075c29
   languageName: node
   linkType: hard
 
@@ -17329,7 +17321,7 @@ __metadata:
     babel-preset-cozy-app: "npm:2.8.4"
     comlink: "npm:^4.4.2"
     cozy-app-publish: "npm:0.44.1"
-    cozy-bar: "npm:^35.4.0"
+    cozy-bar: "npm:^36.2.0"
     cozy-client: "npm:^60.34.0"
     cozy-dataproxy-lib: "npm:^4.15.5"
     cozy-device-helper: "npm:^4.0.3"
