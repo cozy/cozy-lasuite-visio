@@ -7379,16 +7379,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-client@npm:^60.34.0":
-  version: 60.34.0
-  resolution: "cozy-client@npm:60.34.0"
+"cozy-client@npm:^60.45.0":
+  version: 60.45.0
+  resolution: "cozy-client@npm:60.45.0"
   dependencies:
     "@cozy/minilog": "npm:1.0.0"
     "@fastify/deepmerge": "npm:^2.0.2"
     "@types/jest": "npm:^26.0.20"
     "@types/lodash": "npm:^4.14.170"
     btoa: "npm:^1.2.1"
-    cozy-stack-client: "npm:^60.33.0"
+    cozy-stack-client: "npm:^60.45.0"
     date-fns: "npm:^2.30.0"
     fast-deep-equal: "npm:^3.1.3"
     json-stable-stringify: "npm:^1.0.1"
@@ -7414,7 +7414,7 @@ __metadata:
     react-native-google-play-integrity: ^1.1.0
     react-native-inappbrowser-reborn: ^3.5.1
     react-native-ios11-devicecheck: ^0.0.3
-  checksum: 10c0/7f9af8e6455f284f266fc9c7ddca13156f6256bfaa7e4481bc85975a2b8340dffe5902c2f4196a1a65b8d244b691b4fcedb5a267d96627340a1906f12426512c
+  checksum: 10c0/58883faae80655435a2c20b1e8b6cd68c399cce7243337df6da6e1628a9354e763547862df6b7dd4ed70b3e888180116962da44e92a0d8c5ec0ee08e18e79e66
   languageName: node
   linkType: hard
 
@@ -7588,16 +7588,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-stack-client@npm:^60.33.0":
-  version: 60.33.0
-  resolution: "cozy-stack-client@npm:60.33.0"
+"cozy-stack-client@npm:^60.45.0":
+  version: 60.45.0
+  resolution: "cozy-stack-client@npm:60.45.0"
   dependencies:
     detect-node: "npm:^2.0.4"
     mime: "npm:^2.4.0"
     qs: "npm:^6.7.0"
   peerDependencies:
     cozy-flags: ">2.8.6"
-  checksum: 10c0/8816c2398489bf33b1b723857de24d76f6544bf3d19bc295ea6071fe34681198e7c59d00fe0727643ab11b35d82fda07fcb1c28c1b8f58de623ccc34990a9d71
+  checksum: 10c0/6c671394cc0a205e8dcd0595f63f8e40a5cb62bdc86f50f4db590529346d6608e32c927fc797c0a8759e60b78d422dfabb7a3dcfff855b099a6774a68555b6bb
   languageName: node
   linkType: hard
 
@@ -17322,7 +17322,7 @@ __metadata:
     comlink: "npm:^4.4.2"
     cozy-app-publish: "npm:0.44.1"
     cozy-bar: "npm:^36.2.0"
-    cozy-client: "npm:^60.34.0"
+    cozy-client: "npm:^60.45.0"
     cozy-dataproxy-lib: "npm:^4.15.5"
     cozy-device-helper: "npm:^4.0.3"
     cozy-external-bridge-container: "npm:^1.3.0"
