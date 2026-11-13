@@ -7,6 +7,7 @@
   "licence": "AGPL-3.0",
   "icon": "assets/icon.svg",
   "categories": ["cozy"],
+  "service_url_flag": "visio_service_url",
   "source": "https://github.com/cozy/cozy-lasuite-visio",
   "editor": "Cozy",
   "developer": {
@@ -20,6 +21,13 @@
       "public": true
     }
   },
+  "intents": [
+    {
+      "action": "OPEN",
+      "type": ["io.cozy.visio.rooms"],
+      "href": "/intents"
+    }
+  ],
   "permissions": {
     "banners": {
       "description": "Required by the cozy-bar to display platform messages",
@@ -42,6 +50,11 @@
       "verbs": ["GET"],
       "selector": "name",
       "values": ["Home"]
+    },
+    "rooms": {
+      "description": "Required to open a video call room from an intent",
+      "type": "io.cozy.visio.rooms",
+      "verbs": ["GET"]
     }
   }
 }
