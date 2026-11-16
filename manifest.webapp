@@ -7,7 +7,7 @@
   "licence": "AGPL-3.0",
   "icon": "assets/icon.svg",
   "categories": ["cozy"],
-  "service_url_flag": "visio_service_url",
+  "service_url_flag": "visio.embedded-app-url",
   "source": "https://github.com/cozy/cozy-lasuite-visio",
   "editor": "Cozy",
   "developer": {
@@ -50,11 +50,6 @@
       "verbs": ["GET"],
       "selector": "name",
       "values": ["Home"]
-    },
-    "rooms": {
-      "description": "Required to open a video call room from an intent",
-      "type": "io.cozy.visio.rooms",
-      "verbs": ["GET"]
     }
   }
 }
