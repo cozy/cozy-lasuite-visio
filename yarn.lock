@@ -2729,14 +2729,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@linagora/twake-icons@npm:^2.7.0":
-  version: 2.7.0
-  resolution: "@linagora/twake-icons@npm:2.7.0"
+"@linagora/twake-icons@npm:^2.13.1":
+  version: 2.17.0
+  resolution: "@linagora/twake-icons@npm:2.17.0"
   dependencies:
     mime: "npm:4.1.0"
   peerDependencies:
-    react: ^18
-  checksum: 10c0/03fcea699a7a7f7d821ee05b5b36eac58f3e14c516891404e7f1b5a5828d2fc724253c9e2f60731748de4c7e07244dca0e9b9199031eb56d5994655d362eb295
+    react: ^18 || ^19
+  checksum: 10c0/7b237b20718c6a2200fcb3203f8a39cdff8b465377f89161f996dec723fa718ede571b76e3e282123f9753474224dff2cf42a5a1ed8a2d44c080c7f446979124
   languageName: node
   linkType: hard
 
@@ -14530,7 +14530,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "visio@workspace:."
   dependencies:
-    "@linagora/twake-icons": "npm:^2.7.0"
+    "@linagora/twake-icons": "npm:^2.13.1"
     "@rsbuild/core": "npm:2.3.2"
     babel-preset-cozy-app: "npm:2.8.4"
     comlink: "npm:^4.4.2"
