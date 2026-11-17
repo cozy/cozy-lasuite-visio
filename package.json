@@ -48,7 +48,7 @@
     "cozy-minilog": "^3.10.1",
     "cozy-pouch-link": "^60.29.0",
     "cozy-realtime": "^5.9.3",
-    "cozy-search": "^2.0.11",
+    "cozy-search": "^3.0.9",
     "cozy-ui": "^146.6.0",
     "cozy-ui-plus": "^15.0.9",
     "react": "18.2.0",

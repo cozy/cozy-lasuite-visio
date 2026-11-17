@@ -6825,9 +6825,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cozy-search@npm:^2.0.11":
-  version: 2.0.11
-  resolution: "cozy-search@npm:2.0.11"
+"cozy-search@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "cozy-search@npm:3.0.9"
   dependencies:
     "@assistant-ui/react": "npm:^0.12.5"
     classnames: "npm:^2.5.1"
@@ -6837,10 +6837,11 @@ __metadata:
     rooks: "npm:7.14.1"
   peerDependencies:
     "@linagora/twake-icons": ">=2.6.6"
-    cozy-client: ">=60.26.0"
+    cozy-client: ">=60.30.6"
     cozy-device-helper: ">=3.7.1"
     cozy-flags: ">=4.6.1"
     cozy-intent: ">=2.26.0"
+    cozy-interapp: ">=0.17.1"
     cozy-logger: ">=1.10.4"
     cozy-minilog: ">=3.3.1"
     cozy-pouch-link: 54.0.0
@@ -6851,7 +6852,7 @@ __metadata:
     react-dom: ">=18.0.0"
     react-router-dom: ^6.28.0
     twake-i18n: ">=0.3.0"
-  checksum: 10c0/48a95259792f0c8d289c30f9de783d29276499b4f0774aec6ab6db84fab761e7dfb233cde8fb33e3476088b4c2e251586fb155b06de6a5c84bcf3175ba878550
+  checksum: 10c0/03ad50df6a010305b9154a993b599ce535a5852251de89327bae39fa62a1e08d190ab902b55986dc4ee74e0061af29b7875db4f58de2c1fa035c6437eb4dd6ae
   languageName: node
   linkType: hard
 
@@ -14113,7 +14114,7 @@ __metadata:
     cozy-minilog: "npm:^3.10.1"
     cozy-pouch-link: "npm:^60.29.0"
     cozy-realtime: "npm:^5.9.3"
-    cozy-search: "npm:^2.0.11"
+    cozy-search: "npm:^3.0.9"
     cozy-tsconfig: "npm:1.8.1"
     cozy-ui: "npm:^146.6.0"
     cozy-ui-plus: "npm:^15.0.9"
