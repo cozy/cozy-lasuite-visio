@@ -6,9 +6,8 @@
     "watch": "rsbuild build --watch --mode development",
     "start": "rsbuild dev",
     "analyze": "RSDOCTOR=true yarn build",
-    "lint": "yarn lint:js && yarn lint:styles",
+    "lint": "yarn lint:js",
     "lint:js": "eslint '{src,test}/**/*.{js,jsx,ts,tsx}'",
-    "lint:styles": "stylint src/styles --config ./.stylintrc",
     "test": "echo \"No tests yet\"",
     "cozyPublish": "cozy-app-publish --token $REGISTRY_TOKEN --prepublish downcloud"
   },
@@ -32,8 +31,6 @@
     "eslint": "10.7.0",
     "eslint-config-cozy-app": "7.1.0",
     "rsbuild-config-cozy-app": "0.10.0",
-    "stylint": "1.5.9",
-    "stylus-config-cozy-app": "0.1.0",
     "typescript": "5.9.3"
   },
   "dependencies": {
